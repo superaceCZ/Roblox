@@ -66,6 +66,9 @@ wait(0.5)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart10.Position)
 wait(0.5)
 game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
+wait(0.4)
+game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
+wait(0.1)
 
 wait(20)
 game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true
