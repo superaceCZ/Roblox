@@ -126,6 +126,19 @@ until false
 	end,
 })
 
+local Button = Tab:CreateButton({
+	Name = "Auto-Farm gold blocks only",
+	Callback = function()
+	
+repeat
+		game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
+wait(5)
+game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
+wait(15)
+until false-- The function that takes place when the button is pressed
+	end,
+})
+
 local Tab = Window:CreateTab("Ultility", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
@@ -136,6 +149,5 @@ local Button = Tab:CreateButton({
 })
 
 Rayfield:Notify("Beta Version", "You are using the first version! Not many features included. Bugs.", 4483362458) -- Title, Content, Image
-
 
 
