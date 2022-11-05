@@ -1,0 +1,138 @@
+local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
+local Window = Rayfield:CreateWindow({
+	Name = "Auto play for BABFT",
+	LoadingTitle = "Auto Play for BABFT |starting up",
+	LoadingSubtitle = "by superaceCZ | UI by Sirius",
+	ConfigurationSaving = {
+		Enabled = true,
+		FolderName = nil, -- Create a custom folder for your hub/game
+		FileName = "Big Hub"
+	},
+        Discord = {
+        	Enabled = false,
+        	Invite = "", -- The Discord invite code, do not include discord.gg/
+        	RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+	KeySystem = true, -- Set this to true to use our key system
+	KeySettings = {
+		Title = "Authorization Key",
+		Subtitle = "Input auth key",
+		Note = "The Auth key is: auth-x05",
+		FileName = "SiriusKey",
+		SaveKey = true,
+		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+		Key = "auth-x05"
+	}
+})
+
+local Tab = Window:CreateTab("AutoFarm", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+	Name = "Win the game once",
+	Callback = function()
+		
+local DarknessPart1 = game.workspace.BoatStages.NormalStages.CaveStage1.DarknessPart
+local DarknessPart2 = game.workspace.BoatStages.NormalStages.CaveStage2.DarknessPart
+local DarknessPart3 = game.workspace.BoatStages.NormalStages.CaveStage3.DarknessPart
+local DarknessPart4 = game.workspace.BoatStages.NormalStages.CaveStage4.DarknessPart
+local DarknessPart5 = game.workspace.BoatStages.NormalStages.CaveStage5.DarknessPart
+local DarknessPart6 = game.workspace.BoatStages.NormalStages.CaveStage6.DarknessPart
+local DarknessPart7 = game.workspace.BoatStages.NormalStages.CaveStage7.DarknessPart
+local DarknessPart8 = game.workspace.BoatStages.NormalStages.CaveStage8.DarknessPart
+local DarknessPart9 = game.workspace.BoatStages.NormalStages.CaveStage9.DarknessPart
+local DarknessPart10 = game.workspace.BoatStages.NormalStages.CaveStage10.DarknessPart
+local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger
+
+-- Function, do not change!
+
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
+wait(5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart2.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart3.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart4.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart5.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart6.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart7.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart8.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart9.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart10.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
+
+wait(20)
+game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true
+wait(1)
+-- The function that takes place when the button is pressed
+	end,
+})
+
+local Button = Tab:CreateButton({
+	Name = "Auto-Play (Rejoin to turn off,plays for you forever!)",
+	Callback = function()
+		repeat
+local DarknessPart1 = game.workspace.BoatStages.NormalStages.CaveStage1.DarknessPart
+local DarknessPart2 = game.workspace.BoatStages.NormalStages.CaveStage2.DarknessPart
+local DarknessPart3 = game.workspace.BoatStages.NormalStages.CaveStage3.DarknessPart
+local DarknessPart4 = game.workspace.BoatStages.NormalStages.CaveStage4.DarknessPart
+local DarknessPart5 = game.workspace.BoatStages.NormalStages.CaveStage5.DarknessPart
+local DarknessPart6 = game.workspace.BoatStages.NormalStages.CaveStage6.DarknessPart
+local DarknessPart7 = game.workspace.BoatStages.NormalStages.CaveStage7.DarknessPart
+local DarknessPart8 = game.workspace.BoatStages.NormalStages.CaveStage8.DarknessPart
+local DarknessPart9 = game.workspace.BoatStages.NormalStages.CaveStage9.DarknessPart
+local DarknessPart10 = game.workspace.BoatStages.NormalStages.CaveStage10.DarknessPart
+local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger
+
+-- Function, do not change!
+
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
+wait(5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart2.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart3.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart4.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart5.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart6.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart7.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart8.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart9.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(DarknessPart10.Position)
+wait(0.5)
+game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
+
+wait(20)
+game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true
+wait(1)
+Rayfield:Notify("Rebound", "Finished game. Re-wining.", 4483362458) -- Title, Content, Image
+until false
+-- The function that takes place when the button is pressed
+	end,
+})
+
+local Tab = Window:CreateTab("Ultility", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+	Name = "Launch boat bypass (LAUNCH FIRST,THEN WORKS)",
+	Callback = function()
+		game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true -- The function that takes place when the button is pressed
+	end,
+})
+
+Rayfield:Notify("Beta Version", "You are using the first version! Not many features included. Bugs.", 4483362458) -- Title, Content, Image
+
+
+
