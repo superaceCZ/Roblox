@@ -86,7 +86,7 @@ wait(1)
 })
 
 local Button = Tab:CreateButton({
-	Name = "Auto-Play (Rejoin to turn off,plays for you forever!)",
+	Name = "Auto-Play",
 	Callback = function()
 		repeat
 local DarknessPart1 = game.workspace.BoatStages.NormalStages.CaveStage1.DarknessPart
@@ -178,7 +178,7 @@ local Label = Tab:CreateLabel("-Now you should get gold from all sections")
 local Button = Tab:CreateButton({
 	Name = "Check version",
 	Callback = function()
-		Rayfield:Notify("BABFT API", "BABFT Gui version currently is 0.2", 4483362458) -- Title, Content, Image-- The function that takes place when the button is pressed
+		Rayfield:Notify("BABFT API", "BABFT Gui version currently is 0.5", 4483362458) -- Title, Content, Image-- The function that takes place when the button is pressed
 	end,
 })
 
