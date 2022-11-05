@@ -16,12 +16,12 @@ local Window = Rayfield:CreateWindow({
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "Authorization Key",
-		Subtitle = "Input auth key",
-		Note = "The Auth key is: auth-x05",
+		Subtitle = "Input auth key | made by superaceCZ",
+		Note = "The Auth key is: auth-x03458",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "auth-x05"
+		Key = "auth-x03458"
 	}
 })
 
