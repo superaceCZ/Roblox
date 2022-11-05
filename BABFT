@@ -15,13 +15,13 @@ local Window = Rayfield:CreateWindow({
         },
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
-		Title = "Authorization Key",
-		Subtitle = "Input auth key",
-		Note = "The Auth key is: auth-x03458",
+		Title = "Welcome!",
+		Subtitle = "Input key",
+		Note = "The key is currently kocourek6644/6644",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "auth-x03458"
+		Key = "kocourek6644/6644"
 	}
 })
 
@@ -98,23 +98,23 @@ local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trig
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
 wait(3)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart2.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart3.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart4.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart5.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart6.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart7.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart8.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart9.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart10.Position)
-wait(0.5)
+wait(1)
 game.Players.LocalPlayer.Character:MoveTo(FinalPart.Position)
 
 wait(20)
@@ -138,11 +138,13 @@ wait(15)
 until false-- The function that takes place when the button is pressed
 	end,
 })
+local Section = Tab:CreateSection("Quest AutoFarm")
+local Label = Tab:CreateLabel("Working on it! Will take a while")
 
 local Tab = Window:CreateTab("Ultility", 4483362458) -- Title, Image
 
 local Button = Tab:CreateButton({
-	Name = "Launch boat bypass (LAUNCH FIRST,THEN WORKS)",
+	Name = "Launch boat bypass",
 	Callback = function()
 		game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true -- The function that takes place when the button is pressed
 	end,
@@ -153,14 +155,14 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("-Reduced chance of falling to void")
 local Label = Tab:CreateLabel("-Reduced damage (chance) of dying due to low health")
+local Label = Tab:CreateLabel("-Now you should get gold from all sections")
 local Button = Tab:CreateButton({
 	Name = "Check version",
 	Callback = function()
-		Rayfield:Notify("BABFT API", "BABFT Gui version currently is 0.1 (IN BETA)", 4483362458) -- Title, Content, Image-- The function that takes place when the button is pressed
+		Rayfield:Notify("BABFT API", "BABFT Gui version currently is 0.2", 4483362458) -- Title, Content, Image-- The function that takes place when the button is pressed
 	end,
 })
 
 
 Rayfield:Notify("Beta Version", "You are using the beta version! Not many features included. Bugs.", 4483362458) -- Title, Content, Image
-
 
