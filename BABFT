@@ -46,7 +46,7 @@ local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trig
 -- Function, do not change!
 
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
-wait(5)
+wait(3)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart2.Position)
 wait(0.5)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart3.Position)
@@ -96,7 +96,7 @@ local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trig
 -- Function, do not change!
 
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart1.Position)
-wait(5)
+wait(3)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart2.Position)
 wait(0.5)
 game.Players.LocalPlayer.Character:MoveTo(DarknessPart3.Position)
@@ -147,6 +147,19 @@ local Button = Tab:CreateButton({
 		game.Players.LocalPlayer.PlayerGui.LaunchBoatGui.PromptLaunch.Visible = true -- The function that takes place when the button is pressed
 	end,
 })
+
+-- comes
+
+local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
+local Label = Tab:CreateLabel("-Reduced chance of falling to void")
+local Label = Tab:CreateLabel("-Reduced damage (chance) of dying due to low health")
+local Button = Tab:CreateButton({
+	Name = "Check version",
+	Callback = function()
+		Rayfield:Notify("BABFT API", "BABFT Gui version currently is 0.01 (IN BETA)", 4483362458) -- Title, Content, Image-- The function that takes place when the button is pressed
+	end,
+})
+
 
 Rayfield:Notify("Beta Version", "You are using the first version! Not many features included. Bugs.", 4483362458) -- Title, Content, Image
 
