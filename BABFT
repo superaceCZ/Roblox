@@ -16,12 +16,12 @@ local Window = Rayfield:CreateWindow({
 	KeySystem = true, -- Set this to true to use our key system
 	KeySettings = {
 		Title = "Welcome!",
-		Subtitle = "Input key",
-		Note = "The key is currently kocourek6644/6644",
+		Subtitle = "https://link-target.net/529847/yes-wow",
+		Note = "After you done linkvertise, you get the key.",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "kocourek6644/6644"
+		Key = "auth-x555"
 	}
 })
 
@@ -169,7 +169,12 @@ local Button = Tab:CreateButton({
 	end,
 })
 
--- comes
+local Button = Tab:CreateButton({
+	Name = "Walk on water (first stage only)",
+	Callback = function()
+	workspace.Water:Destroy()	-- The function that takes place when the button is pressed
+	end,
+})
 
 local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("-Reduced chance of falling to void")
