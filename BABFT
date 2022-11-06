@@ -172,7 +172,7 @@ local Button = Tab:CreateButton({
 local Button = Tab:CreateButton({
 	Name = "God mode",
 	Callback = function()
-		-- The function that takes place when the button is pressed
+	print("err 404 not completed")	-- The function that takes place when the button is pressed
 	end,
 })
 
