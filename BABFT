@@ -170,9 +170,9 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-	Name = "View Parts (DEX)",
+	Name = "God mode",
 	Callback = function()
-	loadstring(game:HttpGet(˙https://raw.githubusercontent.com/superaceCZ/WRDUI/main/WRDAPI˙))()	-- The function that takes place when the button is pressed
+		-- The function that takes place when the button is pressed
 	end,
 })
 
