@@ -98,7 +98,6 @@ local DarknessPart6 = game.workspace.BoatStages.NormalStages.CaveStage6.Darkness
 local DarknessPart7 = game.workspace.BoatStages.NormalStages.CaveStage7.DarknessPart
 local DarknessPart8 = game.workspace.BoatStages.NormalStages.CaveStage8.DarknessPart
 local DarknessPart9 = game.workspace.BoatStages.NormalStages.CaveStage9.DarknessPart
-local DarknessPart10 = game.workspace.BoatStages.NormalStages.CaveStage10.DarknessPart
 local FinalPart = game.workspace.BoatStages.NormalStages.TheEnd.GoldenChest.Trigger
 
 -- Function, do not change!
