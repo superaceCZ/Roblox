@@ -169,12 +169,6 @@ local Button = Tab:CreateButton({
 	end,
 })
 
-local Button = Tab:CreateButton({
-	Name = "God mode",
-	Callback = function()
-	print("err 404 not completed")	-- The function that takes place when the button is pressed
-	end,
-})
 
 local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("-Reduced chance of falling to void")
