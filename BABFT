@@ -17,11 +17,11 @@ local Window = Rayfield:CreateWindow({
 	KeySettings = {
 		Title = "Welcome!",
 		Subtitle = "Input key",
-		Note = "The key is currently kocourek6644/6644",
+		Note = "The key is currently Axbz56098Assfghjkd0=",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "kocourek6644/6644"
+		Key = "Axbz56098Assfghjkd0="
 	}
 })
 
@@ -169,7 +169,12 @@ local Button = Tab:CreateButton({
 	end,
 })
 
--- comes
+local Button = Tab:CreateButton({
+	Name = "View Parts (DEX)",
+	Callback = function()
+	loadstring(game:HttpGet(˙https://raw.githubusercontent.com/superaceCZ/WRDUI/main/WRDAPI˙))()	-- The function that takes place when the button is pressed
+	end,
+})
 
 local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("-Reduced chance of falling to void")
