@@ -17,11 +17,11 @@ local Window = Rayfield:CreateWindow({
 	KeySettings = {
 		Title = "Welcome!",
 		Subtitle = "Input key",
-		Note = "The key is currently Axbz56098Assfghjkd0=",
+		Note = "The key is currently kocourek6644/6644",
 		FileName = "SiriusKey",
 		SaveKey = true,
 		GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-		Key = "Axbz56098Assfghjkd0="
+		Key = "kocourek6644/6644"
 	}
 })
 
@@ -169,6 +169,7 @@ local Button = Tab:CreateButton({
 	end,
 })
 
+-- comes
 
 local Tab = Window:CreateTab("Changelog", 4483362458) -- Title, Image
 local Label = Tab:CreateLabel("-Reduced chance of falling to void")
@@ -183,4 +184,3 @@ local Button = Tab:CreateButton({
 
 
 Rayfield:Notify("Beta Version", "You are using the beta version! Not many features included. Bugs.", 4483362458) -- Title, Content, Image
-
